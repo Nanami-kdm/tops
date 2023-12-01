@@ -1,0 +1,98 @@
+/*********** CONTAINER *********/
+
+body {
+    background-color: whitesmoke;
+}
+
+#container {
+    width: 80%;
+    margin: 3rem auto;
+    background-color: whitesmoke;
+}
+
+
+/*********** HEADER *********/
+
+header {
+    height: 80px;
+    color: gray;
+}
+
+header h1{
+   font-size:4rem;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*********** NAVIGATION *********/
+
+nav {
+    padding: 1rem 1rem;
+    background-color: #FF9966;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2rem;
+}
+
+
+/*********** ARTICLE  *********/
+
+article {
+    border-top: #FF9966 1px solid;
+    padding: 2rem 0;
+}
+
+article h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+article .text {
+    margin-bottom: 3rem;
+}
+
+article .slideContainer {
+    width: 80%;
+    margin: 1em auto;
+}
+
+article .caption {
+    text-align: center;
+    font-size: 0.8rem ;
+}
+
+article .toTop {
+    text-align: right;
+}
+
+article .toTop a {
+    font-weight: bold;
+    font-size: 0.8rem ;
+    color: #FF9966;
+    text-decoration: none;
+}
+
+/*********** FOOTER *********/
+
+footer {
+    padding: 40px;
+    height: 40px;
+    background-color :#FF9966;
+    color: white;
+}
